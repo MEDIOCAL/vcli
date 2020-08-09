@@ -1,0 +1,17 @@
+{
+  "name": "vcli",
+  "version": "0.0.1",
+  "main": "index.js",
+  "bin": {
+    "vcli": "./bin/index.js"
+  },
+  "dependencies": {
+    "@vue/cli": "^4.4.6",
+    "@vue/cli-shared-utils": "^4.4.6",
+    "chalk": "^4.1.0",
+    "commander": "^6.0.0",
+    "import-local-file": "^0.2.0",
+    "inquirer": "^7.3.3",
+    "semver": "^7.3.2"
+  }
+}
