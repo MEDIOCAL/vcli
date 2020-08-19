@@ -1,0 +1,52 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\aaxia\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js config get registry
+
+PATH: 
+  C:\Users\aaxia\Desktop\FE\vcli\vcli\node_modules\.bin;C:\Users\aaxia\Desktop\FE\vcli\node_modules\.bin;C:\Users\aaxia\Desktop\FE\node_modules\.bin;C:\Users\aaxia\Desktop\node_modules\.bin;C:\Users\aaxia\node_modules\.bin;C:\Users\node_modules\.bin;C:\node_modules\.bin;C:\Program Files\nodejs;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\aaxia\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\Program Files\Microsoft VS Code\bin;C:\Go\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs;C:\Users\aaxia\AppData\Local\Programs\Python\Python36;C:\Users\aaxia\AppData\Local\Programs\Python\Python36\Scripts;C:\WINDOWS\System32\OpenSSH;C:\Users\aaxia\AppData\Local\Yarn\bin;C:\Program Files\Intel\WiFi\bin;C:\Program Files\Common Files\Intel\WirelessCommon;C:\src\flutter\bin;C:\Users\aaxia\AppData\Local\Microsoft\WindowsApps;C:\Users\aaxia\go\bin;C:\Users\aaxia\AppData\Roaming\npm;C:\Users\aaxia\AppData\Local\Yarn\bin;C:\src\flutter\bin
+
+Yarn version: 
+  1.22.0
+
+Node version: 
+  8.10.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: package.json: write EPIPE
+      at _errnoException (util.js:1022:11)
+      at Socket._writeGeneric (net.js:780:25)
+      at Socket._write (net.js:799:8)
+      at doWrite (_stream_writable.js:397:12)
+      at writeOrBuffer (_stream_writable.js:383:5)
+      at Socket.Writable.write (_stream_writable.js:290:11)
+      at Socket.write (net.js:717:40)
+      at ConsoleReporter.warn (C:\Users\aaxia\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:96774:17)
+      at warn (C:\Users\aaxia\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:51520:23)
+      at module.exports.exports.default (C:\Users\aaxia\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:37358:7)
+
+npm manifest: 
+  {
+    "name": "vcli",
+    "version": "0.0.1",
+    "main": "index.js",
+    "bin": {
+      "vcli": "./bin/index.js"
+    },
+    "dependencies": {
+      "@vue/cli": "^4.4.6",
+      "@vue/cli-shared-utils": "^4.4.6",
+      "chalk": "^4.1.0",
+      "commander": "^6.0.0",
+      "import-local-file": "^0.2.0",
+      "inquirer": "^7.3.3",
+      "semver": "^7.3.2"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
